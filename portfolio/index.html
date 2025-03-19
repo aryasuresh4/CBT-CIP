@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arya's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>
+
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Landing Section -->
+    <header id="home">
+        <div class="intro">
+            <button>Hello!</button>
+            <h1>I'm Arya, a Full Stack Developer</h1>
+            <p>Passionate about crafting beautiful web experiences.</p>
+        </div>
+        
+    </header>
+
+    <!-- About Section -->
+<section class="about-section">
+        <div class="abouthead">
+            <p>ABOUT</p>
+            <p class="me">ME</p>
+        </div>
+        <div class="about">
+            <div class="about-text">
+                <div class="headabout">
+                    <h2>I'm a Professional Web Developer</h2>
+                </div>
+                <p class="aboutme">
+                    Hello! I'm Arya Suresh, a passionate and dedicated web developer with a strong foundation in both front-end and back-end technologies. 
+                </p>
+                <p class="about-para">
+                    With extensive experience in web development, I specialize in building intuitive, user-friendly websites and applications that deliver seamless digital experiences. Whether it's crafting responsive layouts, integrating powerful backend functionalities, or designing captivating user interfaces, I thrive on solving challenges and turning ideas into reality.
+                </p>
+                <p class="about-end">My journey as a developer is fueled by the ever-evolving world of technology and my desire to continuously learn and grow. I'm not just passionate about coding—I’m passionate about creating solutions that make a difference.</p>
+               
+            
+            </div>
+            <div class="about-img">
+                <img src="./images/Rectangle-3197-1.jpg" alt="aboutimg">
+            </div>
+        </div>
+
+            <div class="resume">
+                <button class="dwnresume-">
+                    <a href="./images/AryaResume_New.pdf" download>Download Resume</a>
+                </button>
+                
+                <div class="socialMedia">
+                    <a href="https://www.linkedin.com/in/arya-s-130271209" target="_blank">
+                        <img src="./images/pngwing.com(1).png" alt="LinkedIn">
+                    </a>
+                    <a href="https://www.instagram.com/_.4rya_h._?igsh=MTkxbWY0c3Q2ZDlndw==" target="_blank">
+                        <img src="./images/insta.png" alt="Instagram">
+                    </a>
+                </div>
+                
+            </div>
+
+        
+    </section> 
+
+
+    <section class="education-section">
+        <div class="education-header">
+            <h2>Education</h2>
+            <p>My academic journey</p>
+        </div>
+        <div class="education-timeline">
+            <div class="timeline-item">
+                <div class="timeline-date">2022 - 2024</div>
+                <div class="timeline-content">
+                    <h3>MCA</h3>
+                    <p>KTU University, Kerala</p>
+                    <p>Master of Computer Applications</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2019 - 2022</div>
+                <div class="timeline-content">
+                    <h3>BSc Computer Science</h3>
+                    <p>BCM College, Kottayam</p>
+                    <p>Focused on Programming and Software Development</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-date">2017 - 2019</div>
+                <div class="timeline-content">
+                    <h3>Plus Two</h3>
+                    <p>Nss hss, Adoor</p>
+                    <p>Secondary education, specializing computer science</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div id="skills" class="content active">
+        <h2 class="skills-header">My Skills</h2>
+        <p class="skills-subtext">These are some of the technologies and tools I excel at:</p>
+        <div class="skills">
+            <div class="skill-box">HTML</div>
+            <div class="skill-box">CSS</div>
+            <div class="skill-box">JavaScript</div>
+            
+            <div class="skill-box">React</div>
+            <div class="skill-box">Node.js</div>
+            <div class="skill-box">Git</div>
+            <div class="skill-box">Python</div>
+            <div class="skill-box">Bootstrap</div>
+            <div class="skill-box">Tailwind Css</div>
+            <div class="skill-box">Quick learner</div>
+            <div class="skill-box">Communication skills</div>
+        </div>
+    </div>
+    
+
+    <section id="contact" class="contact-section">
+        <div class="contact-header">
+            <h2>Get in Touch</h2>
+            <p>Have a question or want to work together? Reach out!</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-form">
+                <form action="https://formspree.io/f/your_form_id" method="POST" onsubmit="return handleSubmit(event)">
+                    <div class="form-group">
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="_replyto" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" placeholder="Write your message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h3>Contact Details</h3>
+                <p><strong>Email:</strong> aaryasuresh886@gmail.com</p>
+                <p><strong>Phone:</strong> +91 751021XXXX</p>
+                <p><strong>Location:</strong> Adoor, Kerala, India</p>
+            </div>
+        </div>
+    </section>
+    
+    
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3 id="about">About Me</h3>
+                <p>
+                    I'm Arya Suresh, a passionate Web Developer specializing in front-end and back-end technologies. Let's build something amazing together!
+                </p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Me</h3>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/arya-s-130271209" target="_blank">
+                        <img src="./images/linkedin.png" alt="LinkedIn">
+                    </a>
+                    <a href="https://github.com/aryasuresh4" target="_blank">
+                        <img src="./images/github.png" alt="GitHub">
+                    </a>
+                    <a href="https://www.instagram.com/_.4rya_h._?igsh=MTkxbWY0c3Q2ZDlndw==" target="_blank">
+                        <img src="./images/instagram.png" alt="Instagram">
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Arya Suresh. All rights reserved.</p>
+        </div>
+    </footer>
+    </body>
+    </html>
