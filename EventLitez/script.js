@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const eventList = document.getElementById("event-list");
 
     form.addEventListener("submit", function (e) {
-        e.preventDefault(); // Prevent form submission
+        e.preventDefault(); 
 
         // Get input values
         const eventName = capitalizeFirstLetter(document.getElementById("name").value.trim());
